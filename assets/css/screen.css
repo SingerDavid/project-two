@@ -23,11 +23,18 @@ h1{
   text-align: center;
 }
 
-nav li{
-  padding: 1.19047619em; /* 25px / 21px = 1.19047619em */
+nav a{
+  margin: .5em .5em;
+  display: block;
   text-align: center;
-  display: inline-block;
-  background-color: beige;
+  text-decoration: none;
+  background: #ecd0aa;
+  color: #222;
+  padding-block: 0.5em
+}
+
+a:hover{
+  background: #a6733d
 }
 
 h2{
@@ -48,8 +55,7 @@ h5{
 p{
   padding-top/bottom: 1.19047619em; /* 25px / 21px = 1.19047619em */
 }
-
-li{
+#resume-page li{
   padding-left: 1.19047619em;
 }
 
@@ -66,4 +72,20 @@ footer{
 }
 
 /* State Styles */
-@media screen and (min-width: )
+@media screen and (min-width: 304px){
+  nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #ecd0aa;
+    color: #222;
+    padding-block: 0.5em
+  }
+  nav li{
+    float: left;
+    width: 33.3333333333%;
+  }
+  nav a:hover{
+    background: #a6733d
+  }
+}
