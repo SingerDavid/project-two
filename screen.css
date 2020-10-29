@@ -21,6 +21,11 @@ nav li{
   display: inline-block;
 }
 
+h1{
+  padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
+  font-weight: 800;
+}
+
 h2{
   padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
   font-weight: 800;
@@ -35,9 +40,12 @@ p{
 }
 
 li{
-  text-indent: .75em; /* 12px / 16px =.75em */
+  text-indent: 0.75em; /* 12px / 16px =.75em */
 }
 
 footer{
-  font-size: .75em; /* 12px / 16px =.75em */
+  font-size: 0.75em; /* 12px / 16px =.75em */
 }
+
+/* State Styles */
+@media screen and (min-width: )
