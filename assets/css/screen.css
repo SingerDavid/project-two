@@ -24,13 +24,13 @@ h1{
 }
 
 nav a{
-  margin: 0.5em 0.5em;
+  margin: 0.595238095em 0.595238095em; /* half line*/
   display: block;
   text-align: center;
   text-decoration: none;
   background: #ecd0aa;
   color: #222;
-  padding-block: 0.5em
+  padding-block: 0.595238095em;
 }
 
 a:hover{
@@ -54,7 +54,7 @@ h5{
 
 p{
   padding-top/bottom: 1.19047619em; /* 25px / 21px = 1.19047619em */
-  margin: 0.5em;
+  margin: 0.595238095em;
 }
 #resume-page li{
   padding-left: 1.19047619em;
@@ -80,7 +80,7 @@ footer{
     text-decoration: none;
     background: #ecd0aa;
     color: #222;
-    padding-block: 0.5em
+    padding-block: 0.595238095em;
   }
   nav li{
     float: left;
