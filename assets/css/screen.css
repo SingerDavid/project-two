@@ -33,10 +33,16 @@ h2{
 
 h3{
   font-style: italic;
+  font-weight: 800;
+  padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
+}
+
+h5{
+  padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
 }
 
 p{
-  padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
+  padding-top/bottom: 1.19047619em; /* 25px / 21px = 1.19047619em */
 }
 
 li{
