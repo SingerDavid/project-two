@@ -95,4 +95,21 @@ footer{
     grid-template-columns: 1fr minmax(2ch, 50ch);
     grid-template-rows: 1fr 1fr;
   }
+  #ptitle {
+    font-size: 200%;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -0.4em;
+    margin-bottom: 0.455em;
+  }
+  #resume-page h3.ctitle {
+
+  }
+  #resume-page h4.address {
+
+  }
+  #resume-page footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 }
