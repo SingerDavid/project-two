@@ -19,13 +19,14 @@ html{
 
 body{
   margin: 0.595238095em;
-  padding: 0.595238095em
+  padding: 0.595238095em;
 }
 
 h1{
   font-weight: 800;
   background-color: #c7f0ea;
   text-align: center;
+  line-height: 0.79365079333em; /* 2/3 line-height */
   font-size: 200%;
 }
 
@@ -86,21 +87,26 @@ footer{
 }
 
 /* State Styles */
-@media screen and (min-width: 304px){
+@media screen and (min-width: 440px){
   nav a{
-    display: block;
+    display: inline-block;
     text-align: center;
     text-decoration: none;
-    background: #50ab9f;
-    color: #222;
   }
   nav li{
+    display:inline list-item;
     background: black;
-    float: left;
-    width: 33.3333333333%;
-    padding-left: 0;
+    padding: 0.67em 0.1em;
   }
-  nav a:hover{
+  a:hover{
     background: #607d9e;
   }
+}
+
+@media screen and (min-width: 620px){
+  #about-page body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
