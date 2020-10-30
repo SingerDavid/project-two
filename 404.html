@@ -1,0 +1,32 @@
+nav a{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+nav li{
+  display:inline list-item;
+  background: black;
+  padding: 0.67em 0.1em;
+}
+a:hover{
+  background: #607d9e;
+}
+}
+@media screen and (min-width: 710px){
+#about-page body{
+  display: grid;
+  grid-template-columns: 1fr minmax(2ch, 50ch);
+  grid-template-rows: 1fr 1fr;
+}
+#about-page h1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#about-page nav{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#about-page footer{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
