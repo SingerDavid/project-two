@@ -92,6 +92,7 @@ footer{
 @media screen and (min-width: 710px){
   #resume-page body{
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr minmax(2ch, 50ch);
     grid-template-rows: 1fr 1fr;
   }
