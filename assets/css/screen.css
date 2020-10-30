@@ -99,14 +99,19 @@ footer{
     font-size: 200%;
     font-weight: 800;
     text-align: center;
-    margin-top: -0.4em;
-    margin-bottom: 0.455em;
+    margin-top: -0.4em; /* purely off eye design */
+    margin-bottom: 0.455em; /* purely off eye design */
   }
-  #resume-page h3.ctitle {
-
+  #ctitle {
+    font-size: 105%;
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 0.595238095em;
   }
-  #resume-page h4.address {
-
+  #address {
+    margin-top: 0.45em; /* purely off eye design */
+    margin-bottom: 0.39em; /* purely off eye design */
   }
   #resume-page footer{
     grid-column-start: 1;
