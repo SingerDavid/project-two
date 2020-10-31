@@ -92,7 +92,7 @@ footer{
 @media screen and (min-width: 710px){
    body{
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 1.313em;
     grid-template-columns: 1fr minmax(2ch, 50ch);
     grid-template-rows: 1fr 1fr;
   }
@@ -110,7 +110,7 @@ footer{
     text-decoration: underline;
     margin-bottom: 0.595238095em;
   }
-  #address {
+  #address {g
     margin-top: 0.45em; /* purely off eye design */
     margin-bottom: 0.39em; /* purely off eye design */
   }
