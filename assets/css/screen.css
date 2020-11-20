@@ -113,15 +113,19 @@ footer{
    body{
     display: grid;
     grid-gap: 1.313em;
-    grid-template-columns: 1fr minmax(2ch, 50ch);
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: minmax(2ch, 25ch) minmax(2ch, auto);
+    grid-template-rows: 1fr auto;
+  }
+  h1{
+    padding-bottom: .6565em;
   }
   #ptitle {
-    font-size: 200%;
-    font-weight: 800;
+    font-size: 2.626em; /* 200% base font size: 1.313em * 2 */
+    background: #607d9e;
+    padding-bottom: .25em; /* eyes design */
+    font-weight: 700;
     text-align: center;
-    margin-top: -0.4em; /* purely off eye design */
-    margin-bottom: 0.455em; /* purely off eye design */
+    margin-bottom: 0.7em; /* purely off ee design */
   }
   #ctitle {
     font-size: 105%;
@@ -134,7 +138,20 @@ footer{
     margin-top: 0.45em; /* purely off eye design */
     margin-bottom: 0.39em; /* purely off eye design */
   }
-  ul.links{
+
+  .links li{
+    display: inline-block;
+  }
+  .links a{
+    display: inline-block;
+    text-align: center;
+    background: #50ab9f;
+    color: #222;
+    padding-block: 0.5952809em;
+    border-radius: 0.79365079333em;
+  }
+  .links a:hover{
+    background: #607d9e;
   }
   footer{
     grid-column-start: 1;
