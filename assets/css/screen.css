@@ -138,7 +138,10 @@ footer{
     margin-top: 0.45em; /* purely off eye design */
     margin-bottom: 0.39em; /* purely off eye design */
   }
-
+  #resume-page #content ul li{
+    list-style-position: inside;
+    list-style-type: circle;
+  }
   .links li{
     display: inline-block;
   }
