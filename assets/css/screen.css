@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap');
 @import url('//basehold.it/25');
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -10,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 html{
-  font-family: Times, Georgia, 'David Libre';
+  font-family: 'David Libre', Times, Georgia;
   font-size: 1.313em; /* 21px / 16px = 1.313em */
   line-height: 1.19047619em; /* 25px / 21px = 1.19047619em */
   padding: 0.79365079333em; /* 1 / 3 line-height */
@@ -19,11 +20,11 @@ html{
 
 h1{
   padding-top: 0.5em;
-  font-weight: 800;
+  font-weight: 700;
   background-color: #c7f0ea;
   text-align: center;
   line-height: 0.79365079333em; /* 2/3 line-height */
-  font-size: 200%;
+  font-size: 2.626em; /* 200% base font size: 1.313em * 2 */
 }
 
 body{
@@ -94,6 +95,20 @@ footer{
 }
 
 /* State Styles */
+@media screen and (min-width: 180px){
+  nav li{
+  margin: 0;
+  }
+  h1{
+  font-size: 2em; /* selected off of look*/
+  }
+  .email{
+    word-break: break-all;
+  }
+  .links{
+    margin-left: -.3em; /* selected for looks */
+  }
+}
 @media screen and (min-width: 710px){
    body{
     display: grid;
