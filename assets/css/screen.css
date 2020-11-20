@@ -39,7 +39,6 @@ nav a{
   text-decoration: none;
   background: #50ab9f;
   color: #222;
-  padding-block: 0.595238095em;
 }
 
 nav li{
@@ -68,7 +67,7 @@ h5{
 }
 
 p{
-  padding-top/bottom: 1.19047619em; /* 25px / 21px = 1.19047619em */
+  padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
   margin: 0.595238095em;
 }
 
@@ -96,7 +95,6 @@ img {
   text-align: center;
   background: #50ab9f;
   color: #222;
-  padding-block: 0.5952809em;
   border-radius: 0.79365079333em;
 }
 .links a:hover{
@@ -148,7 +146,7 @@ footer{
     text-decoration: underline;
     margin-bottom: 0.595238095em;
   }
-  #address {g
+  #address {
     margin-top: 0.45em; /* purely off eye design */
     margin-bottom: 0.39em; /* purely off eye design */
   }
@@ -164,7 +162,6 @@ footer{
     text-align: center;
     background: #50ab9f;
     color: #222;
-    padding-block: 0.5952809em;
     border-radius: 0.79365079333em;
   }
   .links a:hover{
