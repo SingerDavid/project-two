@@ -54,12 +54,12 @@ a:hover{
 
 h2{
   padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h3{
   font-style: italic;
-  font-weight: 800;
+  font-weight: 700;
   padding-top: 1.19047619em; /* 25px / 21px = 1.19047619em */
 }
 
@@ -88,6 +88,20 @@ img {
   display: block;
   max-width: 100%;
 }
+.links li{
+  display: inline-block;
+  }
+.links a{
+  display: inline-block;
+  text-align: center;
+  background: #50ab9f;
+  color: #222;
+  padding-block: 0.5952809em;
+  border-radius: 0.79365079333em;
+}
+.links a:hover{
+  background: #607d9e;
+}
 
 footer{
   font-size: 0.75em; /* 12px / 16px =.75em */
@@ -106,7 +120,7 @@ footer{
     word-break: break-all;
   }
   .links{
-    margin-left: -.3em; /* selected for looks */
+    margin-left: -0.3em; /* selected for looks */
   }
 }
 @media screen and (min-width: 710px){
@@ -117,7 +131,7 @@ footer{
     grid-template-rows: 1fr auto;
   }
   h1{
-    padding-bottom: .6565em;
+    padding-bottom: 0.6565em;
   }
   #ptitle {
     font-size: 2.626em; /* 200% base font size: 1.313em * 2 */
@@ -155,6 +169,22 @@ footer{
   }
   .links a:hover{
     background: #607d9e;
+  }
+  .calis img{
+    display: inline-block;
+    border-radius: 70%;
+    width: 22%;
+  }
+  #waterfall {
+    width: 30%;
+  }
+  .vball img{
+    display: inline-block;
+    border-radius: 20%;
+    width: 25%;
+  }
+  #freshman {
+    width: 50%;
   }
   footer{
     grid-column-start: 1;
